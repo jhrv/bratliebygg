@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Bratlie Bygg</title>
+        <link>http://bratliebygg.no/categories/</link>
+        <description>Categories - Category - Bratlie Bygg</description>
+        <generator>Hugo -- gohugo.io</generator><language>nb</language><atom:link href="http://bratliebygg.no/categories/" rel="self" type="application/rss+xml" /></channel>
+</rss>
