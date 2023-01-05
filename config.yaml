@@ -1,0 +1,41 @@
+baseURL: 'http://bratliebygg.no/'
+theme: LoveIt
+title: Bratlie Bygg
+languageCode: nb
+languageName: Norsk
+menu:
+  _merge: none
+  main:
+    - weight: 1
+      identifier: prosjekter
+      name: Prosjekter
+      url: /prosjekter/
+    - weight: 2
+      identifier: tjenester
+      name: Tjenester
+      url: /tjenester/
+    - weight: 3
+      identifier: hvemvier
+      name: Hvem vi er
+      url: /hvemvier/
+markup:
+  highlight:
+    noClasses: false
+
+params:
+  defaultTheme: dark
+  images: 
+    - /static/a.jpg
+    - /static/b.jpg
+    - /static/c.jpg
+  social:
+    Instagram: "brattelini80"
+  home:
+    profile:
+      title: 'Bratlie Bygg'
+      subtitle: 'Er du lei av konas jammer, kommer jeg med sag og hammer'
+    posts:
+      enable: true
+  footer:
+    enable: false
+  
