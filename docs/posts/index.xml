@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Bratlie Bygg</title>
-        <link>http://bratliebygg.no/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>nb</language><lastBuildDate>Tue, 03 Jan 2023 20:53:43 &#43;0100</lastBuildDate>
-            <atom:link href="http://bratliebygg.no/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - Bratlie Bygg</title>
+        <link>http://bratliebygg.no/posts/</link>
+        <description>All Posts | Bratlie Bygg</description>
+        <generator>Hugo -- gohugo.io</generator><language>nb</language><lastBuildDate>Tue, 03 Jan 2023 20:53:43 &#43;0100</lastBuildDate><atom:link href="http://bratliebygg.no/posts/" rel="self" type="application/rss+xml" /><item>
     <title>My First Post</title>
     <link>http://bratliebygg.no/posts/my-first-post/</link>
     <pubDate>Tue, 03 Jan 2023 20:53:43 &#43;0100</pubDate>

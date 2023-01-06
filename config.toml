@@ -1,0 +1,49 @@
+baseURL = 'http://bratliebygg.no/'
+theme = "LoveIt"
+title = "Bratlie Bygg"
+languageCode = "nb"
+languageName = "Norsk"
+
+# Author config
+[author]
+  name = ""
+  email = ""
+  link = ""
+
+# Menu config
+[menu]
+  _merge = 'none'
+  [[menu.main]]
+    weight = 1
+    identifier = "prosjekter"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Prosjekter"
+    url = "/prosjekter/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tjenester"
+    pre = ""
+    post = ""
+    name = "Tjenester"
+    url = "/tjenester/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "hvemvier"
+    pre = ""
+    post = ""
+    name = "Hvem vi er"
+    url = "/hvemvier/"
+    title = ""
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
