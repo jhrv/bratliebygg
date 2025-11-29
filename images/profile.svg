@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500">
+  <rect width="400" height="500" fill="#6b5c4c"/>
+  <circle cx="200" cy="150" r="80" fill="#fafaf8"/>
+  <ellipse cx="200" cy="380" rx="120" ry="150" fill="#fafaf8"/>
+  <text x="200" y="480" font-family="system-ui" font-size="20" fill="#3a3a3a" text-anchor="middle">Profilbilde</text>
+</svg>
