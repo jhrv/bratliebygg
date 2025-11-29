@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: system-ui, -apple-system, sans-serif;
     font-size: 18px;
@@ -107,7 +111,8 @@ a {
 
 /* Hero (kun forsiden) */
 .hero {
-    padding: 2rem 1rem 3rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .hero h1 {
@@ -121,7 +126,7 @@ a {
 
 /* Services (forsiden) */
 .services {
-    padding: 0 1rem 2rem 1rem;
+    padding-bottom: 2rem;
 }
 
 .services h2 {
